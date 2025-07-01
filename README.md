@@ -113,12 +113,6 @@ A pipe takes the output from one command and passes it as input to another.
   `ls | sort` lists files and sorts them alphabetically.
 
 # PRACTICE PROGRAMS  
-## Program 1 :  
-- Find the greater of two numbers.
-
-- Display various variables.
-
-- Print the multiplication table of a number.
 
 # DAY 4 :  
 ### PC HARDWARE :  
