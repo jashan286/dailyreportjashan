@@ -433,6 +433,7 @@ Pin Number	Wire Color
 8	Brown
 
 Crimping Basics
+
 Crimping is the process of attaching an RJ45 connector to the end of a network cable.
 
 Steps:
