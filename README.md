@@ -197,7 +197,7 @@ World (on two lines)       |
 | `\"`            | Double quote character | `He said, \"Hello\"`     | Prints: He said, "Hello"             |
 | `\'`            | Single quote character | `It\'s sunny`            | Prints: It's sunny                   |
 
-DAY 5:
+# DAY 5:
 Common PC Problems and Solutions
 Help Shortcut: Press F1 to open help tool in Windows.
 
@@ -340,7 +340,7 @@ If you misconfigured a setting or can’t boot:
 Enter BIOS/UEFI → Choose "Load Setup Defaults" or "Reset to Default"
 Or remove the CMOS battery for a few minutes and reinsert it
 Or use the Clear CMOS jumper on the motherboard
-DAY 6:
+# DAY 6:
 System Troubleshooting Guide
 1. Safe Mode
 Safe Mode is a diagnostic startup mode that loads only essential system files and drivers. It is used to troubleshoot issues that prevent Windows from starting or running properly.
