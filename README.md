@@ -198,65 +198,65 @@ World (on two lines)       |
 | `\'`            | Single quote character | `It\'s sunny`            | Prints: It's sunny                   |
 
 # DAY 5:
-Common PC Problems and Solutions
+## Common PC Problems and Solutions
 Help Shortcut: Press F1 to open help tool in Windows.
 
 Today we learned about common issues encountered on personal computers and how to fix them. Each point includes both the cause and the recommended solution.
 
-PC Maintenance Issues
-C Drive Full or Slowing Down
+## PC Maintenance Issues
+### C Drive Full or Slowing Down
 The C drive stores essential system files. Avoid saving personal files here. Free space using Disk Cleanup, uninstall unused programs, or move data to D or E drive. You can also delete temporary files using %temp%.
 
-PC Running Slowly
+### PC Running Slowly
 Caused by too many background processes or lack of memory. Open Task Manager to disable startup apps, delete temp files, and remove unused software.
 
-Fragmented Hard Drive (HDD only)
+### Fragmented Hard Drive (HDD only)
 Fragmentation slows down file access. Use "Defragment and Optimize Drives" in Windows to improve speed (note: not needed for SSDs).
 
-Too Many Temporary or Junk Files
+### Too Many Temporary or Junk Files
 These files build up from software usage. Use Disk Cleanup or manually delete files from %temp%, temp, and prefetch folders.
 
-System Takes Long to Start
+### System Takes Long to Start
 Caused by unnecessary startup programs and services. Disable unwanted startup applications using Task Manager under the "Startup" tab.
 
-Software & Application Issues
-Software Freezes or Crashes
+## Software & Application Issues
+### Software Freezes or Crashes
 Can happen due to corrupted installations or insufficient RAM. Force quit using Task Manager and reinstall or update the app.
 
-Software Installation Fails
+### Software Installation Fails
 Common reasons include lack of admin permissions or incompatible versions. Use "Run as administrator" and ensure correct 32/64-bit installer is downloaded.
 
-Windows Update Not Working
+### Windows Update Not Working
 Sometimes the update cache is corrupted. Run the Windows Update Troubleshooter or delete contents in C:\Windows\SoftwareDistribution folder.
 
-Hardware & Peripheral Issues
+## Hardware & Peripheral Issues
 Printer Not Responding
 Usually caused by driver problems or connection issues. Restart the printer and PC, check cable or network, and reinstall drivers if needed.
 
-Drive Not Detected
+### Drive Not Detected
 A new or unformatted drive won’t show in Explorer. Go to Disk Management, assign it a drive letter, and format if necessary.
 
-Computer Automatically Restarts or Overheats
+### Computer Automatically Restarts or Overheats
 Often caused by clogged fans or poor airflow. Clean the dust from CPU fan, vents, and use cooling pads for laptops. Also check if thermal paste needs reapplying.
 
-Network & Security Issues
-Internet Not Working Despite Being Connected
+## Network & Security Issues
+### Internet Not Working Despite Being Connected
 Likely a DNS or driver issue. Restart the router, run Windows Network Troubleshooter, or open Command Prompt and run ipconfig /flushdns.
 
-Antivirus Slowing Down the System
+### Antivirus Slowing Down the System
 Heavy or multiple antivirus programs can reduce speed. Use only one trusted antivirus (like Windows Defender), and disable unnecessary real-time scanning features.
 
-Account & Graphics Issues
-Forgotten Login Password
+## Account & Graphics Issues
+### Forgotten Login Password
 For local accounts, use Safe Mode or reset via another admin account. For Microsoft accounts, reset using Microsoft’s online password recovery.
 
-Low Graphics Performance
+### Low Graphics Performance
 Happens due to outdated GPU drivers or background apps using resources. Download latest drivers from NVIDIA/AMD and close all unnecessary apps during usage.
 
-What is Blue Screen of Death (BSOD)?
+## What is Blue Screen of Death (BSOD)?
 The Blue Screen of Death (BSOD) is a critical system error screen displayed by Windows when the operating system can no longer operate safely due to a severe issue. It is also called a Stop Error or bug check.
 
-Why Does BSOD Happen?
+## Why Does BSOD Happen?
 BSOD typically occurs due to:
 
 Faulty device drivers (graphics, network, etc.)
@@ -266,7 +266,8 @@ Overheating or power issues
 Malware affecting system-level processes
 Overclocking or BIOS misconfigurations
 Critical kernel or memory management errors
-How to Analyze a BSOD?
+
+## How to Analyze a BSOD?
 Read the Error Message
 The BSOD screen will display a STOP CODE like:
 DRIVER_IRQL_NOT_LESS_OR_EQUAL or CRITICAL_PROCESS_DIED.
@@ -283,7 +284,7 @@ WhoCrashed
 Event Viewer
 Use eventvwr.msc to see system logs and warnings before the BSOD occurred.
 
-Solutions to Fix BSOD
+## Solutions to Fix BSOD
 Step	Action
 1. Update Drivers	Go to Device Manager and update all major drivers (especially GPU, chipset, and network).
 2. Uninstall Recent Software	Remove any software or drivers recently installed before the BSOD started.
@@ -293,16 +294,19 @@ Step	Action
 6. Reset Overclocking	If using overclocked settings, restore BIOS/UEFI to default values.
 7. Perform a System Restore	Roll back to a working system point using System Restore.
 8. Update Windows	Keep the OS up to date with the latest security and stability patches.
-Preventive Measures
+   
+## Preventive Measures
 Avoid installing untrusted drivers or registry cleaners.
 Keep a restore point or full backup before major updates.
 Ensure proper cooling and power supply to prevent hardware issues.
-Assignment on BIOS/UEFI Settings and POST Errors
+
+## Assignment on BIOS/UEFI Settings and POST Errors
 What is BIOS/UEFI?
 BIOS (Basic Input/Output System) and UEFI (Unified Extensible Firmware Interface) are low-level firmware interfaces between the computer's hardware and its operating system.
 BIOS is the older system, while UEFI is the modern standard in most PCs since 2010.
 These interfaces allow you to configure hardware settings, boot order, security options, and more.
-Common BIOS/UEFI Settings
+
+## Common BIOS/UEFI Settings
 Setting	Description
 Boot Order	Determines which device (HDD, SSD, USB) the PC checks first when starting.
 Secure Boot	Prevents unauthorized OS or bootloaders from loading (enabled in UEFI).
@@ -313,12 +317,13 @@ Date/Time	Sets the system clock — affects OS time if incorrect.
 SATA Mode	Selects IDE, AHCI, or RAID for hard drive behavior.
 Integrated Peripherals	Enables/disables onboard devices (e.g., audio, LAN, USB ports).
 Password Setup	Sets BIOS or boot passwords for security.
-What is POST?
+
+## What is POST?
 POST (Power-On Self Test) is a diagnostic process run by BIOS/UEFI during startup to check if essential hardware (CPU, RAM, GPU, keyboard, etc.) is working.
 
 If POST fails, it usually halts the boot process and gives error beeps or messages.
 
-Common POST Errors & Beep Codes
+### Common POST Errors & Beep Codes
 Error / Beep	Meaning	Suggested Fix
 No Display / Blank Screen	GPU or RAM issue	Reseat graphics card and RAM
 Continuous Beeps	RAM failure	Check RAM sticks or try different slots
@@ -328,13 +333,14 @@ CMOS Checksum Error	BIOS settings corrupt	Reset BIOS using Clear CMOS jumper
 Date and Time Reset	CMOS battery drained	Replace the small coin-cell battery on motherboard
 Beep codes vary by BIOS manufacturer (AMI, Phoenix, Award). Refer to your motherboard manual for exact beep meanings.
 
-How to Access BIOS/UEFI
+## How to Access BIOS/UEFI
 Restart your PC and press the correct key during startup:
 DEL or F2 (common for most desktops/laptops)
 ESC, F1, or F10 for others
 You may also access UEFI through Windows:
 Go to Settings > Update & Security > Recovery > Advanced Startup > Restart Now > UEFI Firmware Settings
-Resetting BIOS/UEFI to Default
+
+## Resetting BIOS/UEFI to Default
 If you misconfigured a setting or can’t boot:
 
 Enter BIOS/UEFI → Choose "Load Setup Defaults" or "Reset to Default"
