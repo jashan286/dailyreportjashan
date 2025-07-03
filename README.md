@@ -347,23 +347,23 @@ Enter BIOS/UEFI → Choose "Load Setup Defaults" or "Reset to Default"
 Or remove the CMOS battery for a few minutes and reinsert it
 Or use the Clear CMOS jumper on the motherboard
 # DAY 6:
-System Troubleshooting Guide
-1. Safe Mode
+## System Troubleshooting Guide
+### 1. Safe Mode
 Safe Mode is a diagnostic startup mode that loads only essential system files and drivers. It is used to troubleshoot issues that prevent Windows from starting or running properly.
 
-Types of Safe Mode:
+### Types of Safe Mode:
 
 Safe Mode
 Safe Mode with Networking
 Safe Mode with Command Prompt
-How to Access:
+### How to Access:
 
 Press Shift + Restart → Troubleshoot → Advanced Options → Startup Settings
 Or interrupt boot process 3 times to enter recovery mode
-2. Recovery Tools
+## 2. Recovery Tools
 Recovery Tools are built-in Windows utilities used to fix, restore, or reset system functionality after crashes, failed updates, or boot errors.
 
-Key Recovery Options:
+### Key Recovery Options:
 
 Tool	Description
 System Restore	Reverts the system to a previously created restore point
@@ -371,24 +371,25 @@ Startup Repair	Fixes boot-related problems automatically
 Reset This PC	Reinstalls Windows with an option to keep or remove user data
 System Image Recovery	Restores Windows using a full system image backup
 Command Prompt	Allows advanced troubleshooting using terminal commands
-Access via:
+
+### Access via:
 Settings → Recovery → Advanced Startup
 Or press F11/Shift + Restart during boot
 
-3. OS Repair (Operating System Repair)
+## 3. OS Repair (Operating System Repair)
 OS repair involves fixing core system files and configurations to restore normal Windows operations.
 
-Common Repair Methods:
+### Common Repair Methods:
 
-Method	Description
+#### Method	Description
 sfc /scannow	Scans and repairs corrupted system files
 DISM /RestoreHealth	Repairs the Windows image if SFC is not sufficient
 Startup Repair	Automatically fixes boot-related files
 Reset This PC	Reinstalls Windows while offering data preservation options
 Commands: sfc /scannow DISM /Online /Cleanup-Image /RestoreHealth
 
-Virus and Malware
-Symptoms of Infection
+## Virus and Malware
+### Symptoms of Infection
 System becomes slow or unresponsive
 Frequent crashes or freezes
 Unexpected pop-ups or ads appear
@@ -397,38 +398,38 @@ Unknown programs start running or installed
 Files or folders are missing, renamed, or encrypted
 High CPU, memory, or disk usage without visible cause
 Browser redirects to unknown websites or search engines
-Basic Malware Removal Steps
-Boot into Safe Mode with Networking
+## Basic Malware Removal Steps
+### Boot into Safe Mode with Networking
 
 Press Shift + Restart → Troubleshoot → Advanced Options → Startup Settings
-Run Full System Scans
+### Run Full System Scans
 
 Use Windows Defender or a trusted tool like Malwarebytes
-Uninstall Suspicious Applications
+### Uninstall Suspicious Applications
 
 Go to Control Panel → Programs → Uninstall unknown software
-Disable Unwanted Startup Programs
+### Disable Unwanted Startup Programs
 
 Open Task Manager → Startup tab → Disable unknown entries
-Reset Browsers
+### Reset Browsers
 
 Remove unknown extensions and reset settings in Chrome, Firefox, etc.
-Review Scheduled Tasks and Services
+### Review Scheduled Tasks and Services
 
 Use Task Scheduler and services.msc to identify unusual entries
-Perform System Restore or Reset This PC
+### Perform System Restore or Reset This PC
 
 Use a restore point or reinstall Windows to eliminate persistent threats
-Networking Cable and Connectors
-Ethernet Cable and RJ45 Connector
+## Networking Cable and Connectors
+### Ethernet Cable and RJ45 Connector
 Ethernet cables are used to connect computers, routers, and switches for network communication.
-The RJ45 connector is a standard 8-pin connector used at both ends of the cable.
-RJ45 Color Code (TIA/EIA 568B Standard)
+ The RJ45 connector is a standard 8-pin connector used at both ends of the cable.
+### RJ45 Color Code (TIA/EIA 568B Standard)
 Wiring order from left to right (with clip facing down):
 
 White-Orange, Orange, White-Green, Blue, White-Blue, Green, White-Brown, Brown
 
-Pin Number	Wire Color
+### Pin Number	Wire Color
 1	White-Orange
 2	Orange
 3	White-Green
@@ -438,18 +439,18 @@ Pin Number	Wire Color
 7	White-Brown
 8	Brown
 
-Crimping Basics
+## Crimping Basics
 
 Crimping is the process of attaching an RJ45 connector to the end of a network cable.
 
-Steps:
+### Steps:
 
 Strip about 1 inch of outer cable jacket.
 Untwist and arrange the wires in the correct color order.
 Trim all wires to the same length.
 Insert wires into the RJ45 connector.
 Use a crimping tool to lock the connector in place.
-Cable Testing
+### Cable Testing
 After crimping, a cable tester is used to check:
 
 Proper pin connections (1 to 1, 2 to 2, etc.)
